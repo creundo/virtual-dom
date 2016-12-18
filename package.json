@@ -1,0 +1,27 @@
+{
+  "name": "virtual-dom",
+  "version": "0.1.0",
+  "description": "virtual dom for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "watch": "babel --watch src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creundo/virtual-dom.git"
+  },
+  "keywords": [
+    "virtual-dom"
+  ],
+  "author": "Joni Turunen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creundo/virtual-dom/issues"
+  },
+  "homepage": "https://github.com/creundo/virtual-dom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0"
+  }
+}
